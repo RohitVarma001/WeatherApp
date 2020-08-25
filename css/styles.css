@@ -4,7 +4,8 @@
     margin: 0;
 }
 body{
-    background-color: #66bfbf;
+    background-color: #b2ebf2;
+    font-family: 'EB Garamond', serif;
 }
 a{
     color: black;
@@ -29,11 +30,16 @@ input{
 /* To modify anything for dark mode - Go to dark-mode folder and then edit the dark-mode.css file.*/
 .heading{
  text-align: center;
+ font-family: 'Montserrat', sans-serif;
  animation: heading 1s 1;
+}
+.City{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
 }
 .form{
     display: block;
-    background-color: #66bfbf;
+    background-color: #b2ebf2;
     width: 30%;
     margin: 0px auto;
     padding: .375rem .75rem;
@@ -68,9 +74,12 @@ input{
 
 .after{
     display: none;
+    background-color:#f09ae9;
     margin-top: 6.25rem;
     text-align: center;
-    font-size: 1.875rem;
+    width:40%;
+    margin: 0 auto;
+    border-radius: 25px;
 }
 .button{
     margin-top: 0.25rem;
@@ -78,10 +87,14 @@ input{
     color:black;
     border: 0.0625rem solid;
     border-radius: 0.625rem;
+    padding: 3px 12px;
 }
 .button:hover{
     background-color:blue;
     color: whitesmoke;
+}
+.textColor{
+    color: black;
 }
 
 @media screen and (max-width:825px) {
@@ -116,6 +129,9 @@ input{
         border-radius: 0.625rem;
         border: 0rem;
         width: 7.5rem;
+    }
+    .after{
+        width: 80%;
     }
    
 }

@@ -52,7 +52,7 @@
     background-color: #525252;
 }
 [data-theme="dark"] .heading{
-  color: goldenrod;
+  color: rgb(63, 218, 32);
 }
 [data-theme="dark"] .footer{
   background-color: black;
@@ -61,9 +61,15 @@
   color:whitesmoke;
 }
 [data-theme="dark"] .City{
-  color:rgb(255, 38, 0);
+  color:rgb(255, 187, 0);
 }
 [data-theme="dark"] .form{
   color: #056676;
   background-color:#414141
+}
+[data-theme="dark"] .after{
+  background-color:#092532;
+}
+[data-theme="dark"] .textColor{
+  color: #ffee8f;
 }
