@@ -13,14 +13,14 @@ a:hover{
     color: orange;
 }
 input{
-    margin: 0px 10px;
+    margin: 0rem 0.625rem;
 }
 .inputValue{
-    border-radius: 10px;
-    border: 0px;
+    border-radius: 0.625rem;
+    border: 0rem;
 }
 .nav-item{
-    padding: 0px 10px;
+    padding: 0rem 0.625rem;
 }
 .link-text{
     color: black;
@@ -48,7 +48,7 @@ input{
 .sun{
     width: 8%;
     display: block;
-    margin: 50px auto 0px;
+    margin: 3.125rem auto 0rem;
     animation: heading 1s 1;
 }
 .img1{
@@ -61,23 +61,23 @@ input{
 }
 .footer{
     background-color: #056676;
-    margin-top: 80px;
+    margin-top: 5rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 .after{
     display: none;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .button{
-    margin-top: 4px;
+    margin-top: 0.25rem;
     background-color: lightblue;
     color:black;
-    border: 1px solid;
-    border-radius: 10px;
+    border: 0.0625rem solid;
+    border-radius: 0.625rem;
 }
 .button:hover{
     background-color:blue;
@@ -111,6 +111,11 @@ input{
         border-radius: .25rem;
         transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
         animation: form 1s 1;
+    }
+    .inputValue{
+        border-radius: 0.625rem;
+        border: 0rem;
+        width: 7.5rem;
     }
    
 }
