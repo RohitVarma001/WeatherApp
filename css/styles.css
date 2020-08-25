@@ -90,7 +90,7 @@ input{
     padding: 3px 12px;
 }
 .button:hover{
-    background-color:blue;
+    background-color:#056676;
     color: whitesmoke;
 }
 .textColor{
@@ -112,7 +112,7 @@ input{
     }
     .form{
         display: block;
-        background-color: #66bfbf;
+        background-color: #b2ebf2;
         width: 50%;
         text-align: center;
         margin: 0px auto;
@@ -132,6 +132,10 @@ input{
     }
     .after{
         width: 80%;
+    }
+    .button{
+        margin-top: 0.75rem;
+        padding: 0.1875rem 1rem;
     }
    
 }
