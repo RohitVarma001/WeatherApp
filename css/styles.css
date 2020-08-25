@@ -35,7 +35,7 @@ input{
 }
 .City{
     font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 .form{
     display: block;
@@ -79,7 +79,7 @@ input{
     text-align: center;
     width:40%;
     margin: 0 auto;
-    border-radius: 25px;
+    border-radius: 1.5625rem;
 }
 .button{
     margin-top: 0.25rem;
@@ -87,7 +87,7 @@ input{
     color:black;
     border: 0.0625rem solid;
     border-radius: 0.625rem;
-    padding: 3px 12px;
+    padding: 0.1875rem 0.75rem;
 }
 .button:hover{
     background-color:#056676;
@@ -115,7 +115,7 @@ input{
         background-color: #b2ebf2;
         width: 50%;
         text-align: center;
-        margin: 0px auto;
+        margin: 0rem auto;
         padding: .375rem .75rem;
         font-size: 1rem;
         line-height: 1.5;
