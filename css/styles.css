@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    background-color: #b2ebf2;
+    background-color: #68e9fa;
     font-family: 'EB Garamond', serif;
 }
 a{
@@ -36,10 +36,11 @@ input{
 .City{
     font-family: 'Montserrat', sans-serif;
     font-size: 3.75rem;
+    color:greenyellow;
 }
 .form{
     display: block;
-    background-color: #b2ebf2;
+    background-color: #68e9fa;
     width: 30%;
     margin: 0px auto;
     padding: .375rem .75rem;
@@ -74,7 +75,7 @@ input{
 
 .after{
     display: none;
-    background-color:#f09ae9;
+    background-color:#c946bee3;
     margin-top: 6.25rem;
     text-align: center;
     width:40%;
@@ -94,7 +95,7 @@ input{
     color: whitesmoke;
 }
 .textColor{
-    color: black;
+    color:rgb(6, 3, 128);
 }
 
 @media screen and (max-width:825px) {
@@ -151,7 +152,11 @@ input{
     
 @keyframes form{
     0%{
+        opacity: 0;
         margin-top: 12.5rem;
+    }
+    100%{
+        opacity: 1;
     }
 }
 ::-webkit-scrollbar {
